@@ -17,7 +17,7 @@ prepare_folders() {
 
 initialize_cache() {
     echo "Creating cache folder..."
-    "$SQUID" -z
+    "$SQUID" -Nz
 
     sleep 5
 }
